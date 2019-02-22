@@ -1,0 +1,53 @@
+{
+  "name": "daskeyboard-applet--sentiment-analysis",
+  "displayName": "Sentiment Analysis",
+  "version": "1.0.0",
+  "description": "Displays realtime sentiment analysis.",
+  "longDescription": "Displays realtime sentiment analysis on a user's typing on a Das Keyboard Q Series.",
+  "officialProductName": "Sentiment Analysis",
+  "publisher": "Brandon Schabell",
+  "icon": "assets/icon.png",
+  "publisherName": "Brandon Schabell",
+  "authorName": "Brandon Schabell",
+  "authorUrl": "https://www.brandonschabell.com",
+  "licenseUrl": "https://github.com/brandonschabell/daskeyboard-applet-sentiment-analysis/blob/master/LICENSE",
+  "homePageUrl": "https://www.brandonschabell.com",
+  "developerRepoUrl": "https://github.com/brandonschabell/daskeyboard-applet-sentiment-analysis",
+  "issuesUrl": "https://github.com/brandonschabell/daskeyboard-applet-sentiment-analysis/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonschabell/daskeyboard-applet-sentiment-analysis"
+  },
+  "changelogUrl": "CHANGELOG.md",
+  "readMeUrl": "README.md",
+  "readMeEndUserUrl": "README_ENDUSER.md",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "das-keyboard-q": "3.2.2"
+  },
+  "dependencies": {
+    "daskeyboard-applet": "2.11.3",
+    "input-event": "^1.2.5",
+    "sentiment": "^5.0.1",
+    "color": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "qConfig": {
+    "geometry": {
+      "width": 1,
+      "height": 1,
+      "defaults": {
+        "origin": {
+          "x": 0,
+          "y": 1
+        }
+      }
+    }
+  }
+}
